@@ -1,0 +1,10 @@
+.baseLayout {
+
+    height: 100vh;
+    width: 100vw;
+
+    display: grid;
+    grid-template-rows: [top] 48px [contentTop] 1fr [ContentBottom] 36px [bottom];
+    grid-template-columns: [left] 20% [contentLeft] 1fr [contentRight] 20% [right];
+
+}
